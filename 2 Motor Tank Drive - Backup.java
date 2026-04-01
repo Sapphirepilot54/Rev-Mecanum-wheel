@@ -51,7 +51,6 @@ public class RevTwoMotorTankDrive extends LinearOpMode {
             leftMotor.setPower(leftPower);
             rightMotor.setPower(rightPower);
 
-            // Telemetry (very useful for testing on a REV robot)
             telemetry.addData("Left Power", "%.2f", leftPower);
             telemetry.addData("Right Power", "%.2f", rightPower);
             telemetry.addData("Drive", "%.2f", drive);
